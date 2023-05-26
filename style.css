@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+  }
+ /* nav css */
+.my-nav-1{
+    background-color:#ffffff;
+}
+
+/*  */
+
+
+.section-header{
+    text-decoration: underline;
+}
+.content-box{
+   
+    background-color: #e0d4d4;
+}
+.content{
+background-color: #F5EFEF;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+}
+/* carousel */
+
+
+.carousel-my-image{
+  height: 500px; 
+
+
+}
+
+/* about css */
+.about-box{
+    height: 90vh;
+    background-color:transparent;
+}
+.about-img{
+    height: 90vh;
+}
+.about-content{
+    
+    
+   margin-top: 200px;
+}
+/* contact css */
+.contact-content{
+   background-color: rgb(223, 219, 219);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form{
+    /* margin:20px; */
+    width: 50%;
+    box-shadow: 1px 5px 5px grey;
+    background-color: #e0d4d4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+input,label,textarea{
+    background-color: transparent;
+    width: 95%;
+    
+    
+}
+label{
+ padding-top: 5px;
+}
+input{
+    border: none;
+    border-bottom:2px solid black;
+}
+
+/* our team section */
+
+.team-content{
+   
+    /* background-color: rgb(224, 48, 48); */
+    margin-top:20px 0;
+    color:black;
+}
+.profile-img{
+  
+  
+}
+.social-media{
+
+    
+display: flex;
+justify-content: center;
+justify-content: center;
+gap: 10px;
+padding-bottom: 5px;
+}
+/* footer */
+
+.my-footer{
+    /* background-color: rgb(238, 208, 37); */
+    background-color: #e1eaf3 ;
+    /* background-image: url(/bvt_module_1/loginUI/img/wave.svg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position:center; 
+
+   
+    
+} 
+.fa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  height: 40px; 
+  width: 40px;
+  font-size: 25px;
+  
+}
+
+/* media queries */
+@media (max-width: 375px) { 
+    .social-media{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+   
+ }
